@@ -1,0 +1,18 @@
+
+
+#header.main {
+
+    background:#e0ecff;
+ background: linear-gradient(to bottom,#BD1523 0,#C21017 100%);
+}
+.panel-body{overflow: inherit;}
+
+table.richtable thead{ background:#E0ECFF;text-align-last: left;}
+body{font-family:"Microsoft Yahei" !important;}
+
+input[disabled], select[disabled], textarea[disabled], input[readonly], select[readonly], textarea[readonly] {background-color: #EFF5FF;}
+thead, tfoot {background-color: #E0ECFF;}
+.input-append .add-on{background:#EFF5FF;}
+#footer{
+	background-color: #E0ECFF;
+}

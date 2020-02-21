@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<decorators defaultdir="/resources/view/decorator">
+	<excludes>
+		<pattern>/assets/*</pattern>
+		<pattern>/remoting/*</pattern>
+	</excludes>
+	<decorator name="none" />
+	<decorator name="simple" page="simple.ftl" />
+	<decorator name="login" page="login.ftl">
+		<pattern>/login</pattern>
+	</decorator>
+	<decorator name="main" page="main.ftl">
+		<pattern>/</pattern>
+	</decorator>
+	<decorator name="page" page="page.ftl">
+		<pattern>/*</pattern>
+	</decorator>
+</decorators>
